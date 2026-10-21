@@ -92,8 +92,6 @@ uv run --env-file .env python -m uvicorn main:app --reload
 
 `init data.py` 用于新数据库的演示部门和用户初始化，初始密码读取 `INITIAL_USER_PASSWORD`。它会插入数据，请仅在需要初始化时执行；示例邮箱使用 `example.com`，实际邮件测试需使用自己的测试邮箱。
 
-后端 API 文档：<http://localhost:8000/docs>。
-
 ### 3. 启动前端
 
 另开终端，在仓库的 `hr-frontend` 目录执行：
